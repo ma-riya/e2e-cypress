@@ -1,0 +1,11 @@
+{
+  "integrationFolder": "cypress/e2e-tests",
+  "video": false,
+  "defaultCommandTimeout": 30000,
+  "pageLoadTimeout": 30000,
+  "viewportWidth": 1600,
+  "viewportHeight": 900,
+  "env": {
+    "RETRIES": 2
+  }
+}

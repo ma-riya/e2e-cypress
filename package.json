@@ -1,0 +1,28 @@
+{
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress:open:prod": "cypress open --env configFile=production",
+    "cypress:open:staging": "cypress open --env configFile=staging",
+    "cypress:open:dev": "cypress open --env configFile=development",
+    "cypress:run:prod": "cypress run --env configFile=production",
+    "cypress:run:dev": "cypress run --env configFile=development",
+    "cypress:run:staging": "cypress run --env configFile=staging"
+  },
+  "name": "ui-automated-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@cypress/webpack-preprocessor": "^4.1.0",
+    "cypress": "^3.6.1",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.5.2",
+    "webpack": "^4.37.0"
+  },
+  "devDependencies": {
+    "@bahmutov/add-typescript-to-cypress": "^2.1.2",
+    "cypress-file-upload": "^3.5.0",
+    "cypress-plugin-retries": "^1.4.0"
+  }
+}
